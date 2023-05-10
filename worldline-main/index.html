@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Booking App</title>
+        <link rel="stylesheet" href="/accets/css/style.css">
+<style>
+      @media (max-width: 800px) {
+        .center{
+            flex-direction: column;
+        }
+        .bg-text{
+            margin-top: 5rem;
+        }
+        .pt-3{
+            padding-top: 0;
+        }
+        .box-1{
+            height: 70vh;
+        }
+        .box-2{
+            margin-top: 2rem;
+            height: 70vh;
+        }
+        .box{
+        flex-direction: column;
+        align-items: center;
+       }
+       @media (max-width:300px) {
+        .box-1{
+            height: 80vh;
+        }
+        .box-2{
+            margin-top: 2rem;
+            height: 80vh;
+        }
+       }
+  }
+</style>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav" id="nav">
+                <div class="container-fluid flex nav-main">
+                    <a class="nav-title pt-05 pl-2" href="/index.html">Movie Booking App</a>
+                    <div class="left pt-05 flex mr-3">
+                        <a class="btn btn-2 link" type="button" href="/templates/signup.html">Sign Up</a>
+                        <a class="btn btn-2 link" type="button" href="/templates/signin.html">Sign In</a>
+                    </div>
+                </div>
+                
+            </nav>
+        </header>
+        <main>
+            <article class="home" id="home">
+                <section class="home-section">
+                    <div class="bg-image"></div>
+                    <div class="bg-text">
+                        <div class="main-text">
+                            <h1 style="text-align: center; color: white">Movie
+                                Booking App</h1>
+                        </div>
+                        
+                    </div>
+                </section>
+            </article>
+            <article class="explore" id="explore">
+                <section class="shows-section section center">
+                    <div class="container">
+                        <div class="box mt-5 mb-4">
+                            <div class="box-1 now-showing">
+                                <div class="title center pt-3">
+                                    <h2>Now showing Movies</h2>
+                                </div>
+                                <div class="now-showing-img center">
+                                    <img class="box-img" src="./accets/img/now-showing.jpg" alt="" srcset="">
+                                </div>
+                                <div class="now-showing-info center">
+                                    <h4>
+                                        More Movies
+                                    </h4>
+                                </div>
+                                <div class="now-showing-btn center">
+                                    <a role="button" href="./templates/nowShowing.html" class="btn btn-2">Explore</a>
+                                </div>
+                            </div>
+                            <div class="box-2 booking">
+                                <div class="title center pt-3">
+                                    <h2>Book Your Seats Now</h2>
+                                </div>
+                                <div class="booking-img center">
+                                    <img class="box-img" src="./accets/img/book-tickets.jpeg" alt="">
+                                </div>
+                             
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+        </main>
+        <footer></footer>
+        <script src="./accets/js/main.js"></script>
+    </body>
+</html>
